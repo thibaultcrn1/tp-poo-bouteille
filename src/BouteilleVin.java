@@ -10,7 +10,7 @@ public class BouteilleVin extends Bouteille {
     }
 
     public String toString() {
-        return "Cette bouteille de contenance " + this.contenu + "ml et mise en bouteille le " + this.dateMiseEnBouteille + " contient un vin de couleur " + this.couleur;
+        return super.toString() + " contient un vin de couleur " + this.couleur;
     }
 
     public String getCouleur() {
